@@ -52,6 +52,15 @@ stock-price-prediction/
 └─ README.md
 ```
 
+## 📖 Explore the Project
+
+* [Linear Regression Notebook](notebooks/linear_regression.ipynb)
+* [LSTM Notebook](notebooks/lstm_stock_prediction.ipynb)
+* [Model Comparison Notebook](notebooks/model_comparison.ipynb)
+* [live_data_prediction](notebooks/live_data_prediction.ipynb)
+
+---
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -175,14 +184,6 @@ Metrics and plots are available in notebooks/exploration.ipynb and comparison sc
 
 ---
 
-## 📖 Explore the Project
-
-* [Linear Regression Notebook](notebooks/linear_regression.ipynb)
-* [LSTM Notebook](notebooks/lstm_stock_prediction.ipynb)
-* [Model Comparison Notebook](notebooks/model_comparison.ipynb)
-* [live_data_prediction](notebooks/live_data_prediction.ipynb)
-
----
 
 ## 🛠 Reproducibility
 
