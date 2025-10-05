@@ -18,40 +18,6 @@ This project builds and evaluates machine learning and deep learning models to p
 
 ---
 
-## 📂 Project Structure
-
-```
-stock-price-prediction/
-├─ data/                 
-│   └─ aapl_stock.csv          # raw stock dataset
-├─ notebooks/            
-│   ├─ download_data.ipynb     # data collection
-│   ├─ eda_stock.ipynb         # exploratory analysis
-│   └─ live_prediction_stock.ipynb    # evaluation & plots
-    ├─ linear_regression.ipynb         # evaluateion & plots 
-│   └─ lstm_stock_prediction.ipynb    # evaluation & plots
-├─ src/                  
-│   ├─ preprocess.py
-│   ├─ preprocess_lstm.py
-│   ├─ train.py
-│   ├─ train_lstm.py
-│   ├─ evaluate.py
-│   ├─ evaluate_lstm.py
-│   ├─ predict.py
-│   ├─ predict_future.py
-│   └─ compare_models.py
-├─ models/               
-│   ├─ linear_regression.joblib
-│   ├─ lstm_model.keras
-│   ├─ lstm_best.keras
-│   ├─ scaler.joblib
-│   └─ lstm_scaler.joblib
-├─ requirements.txt      
-├─ environment.yml       # reproducible conda environment
-├─ .gitignore
-└─ README.md
-```
-
 ## 📖 Explore the Project
 
 * [Linear Regression Notebook](notebooks/linear_regression.ipynb)
